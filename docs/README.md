@@ -4,7 +4,7 @@ new file mode 100644
 +++ b/docs/README.md
 @@ -0,0 +1,23 @@
 +# OctoAcme Project Management — Overview
-+
++  
 +OctoAcme runs work through a structured, iterative lifecycle: Initiation, Planning, Execution, Release, and Retrospective. Initiation captures the problem, stakeholders, success metrics, and a go/no‑go decision using a lightweight Project One‑pager. Planning turns approved initiatives into a prioritized, estimated backlog, defines a Definition of Done, and maps releases and milestones. Execution is timeboxed into sprints/iterations and tracked on a standard project board (Backlog → Ready → In Progress → In Review → QA → Done). Releases follow pre‑release checks, staged verification, rollback plans, and post‑deploy validation.
 +
 +Work is organized via documented workflows and artifacts: backlog items with acceptance criteria and owners, a Risk Register to track issues and mitigations, small pull requests with CI checks and mandatory reviews, and release notes and checklists. The repo serves as the single source of truth — project charters, release plans, and retrospective actions are kept in docs/ so they remain discoverable and versioned.
